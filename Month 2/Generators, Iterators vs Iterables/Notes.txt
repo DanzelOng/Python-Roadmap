@@ -1,0 +1,25 @@
+1. What is an Iterator?
+- An Iterator is an object that is able to remember its previous state
+- An Iterator is able to call on the __next__ method to get the next value
+- The Iterator is exhausted once all items have been called
+
+2. Similarities between an Iterator and Iterable
+- Both contains the __iter__ method
+- Both can be looped over
+
+3. Difference between an Iterator and Iterable
+- An Iterable does not contain the __next__ method
+- An Iterable is unable to remember its previous state
+- An Iterator can only be looped once while an iterable can be looped over and over
+
+4. Generators
+- Generators are a type of Iterator that yields one value at a time
+- Like Iterators, can call on the __next__ method and be exhausted
+
+5. Ways to create a Generator
+- Using the yield statement in a function
+- Use a generator comprehension
+
+6. Why are Generators Useful?
+- Memory efficient, as they do not store the entire result in-memory
+- Makes code more readable
