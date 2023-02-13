@@ -1,12 +1,34 @@
+# What is Inheritance?
+- Inheritance allows a class to inherit attributes
+  and methods from other classes
+- Reduces repeated code
+- Helps promote code reusability and a clean organized codebase
+
+
+# Subclass and superclass 
+- A class which inherits from another class is a subclass, 
+  and the class which is inherited from is the superclass
+
+
 # Types of Inheritance
 1. Single Inheritance
-- 
-
+- Most common type of inheritance, occurs when a class inherits from a 
+  parent class
 
 
 2. Multiple Inheritance
+- Occurs when a class inherits from 2 or more superclasses
+- These superclasses may or may not be logically related to one another
+
 
 3. Multi-Level Inheritance
+- Occurs when a class inherits from a class that inherits from another class
 
 
 # Method Resolution Order (MRO)
+- MRO is the order where a method is searched for in a class hierarchy
+- If 2 or more classes contain the same method, 
+  Python will choose the class one hierarchy above the subclass
+- If a method is not found anywhere but in the base class,
+  and the method is called from the deepest subclass,
+  Python will search for it through the MRO
