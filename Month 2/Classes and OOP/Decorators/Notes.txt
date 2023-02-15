@@ -1,0 +1,19 @@
+# Decorators
+- Allow us to extend functionality of a function without modifying it
+- We decorate a function by using the decorator synthax @<decorator-function>
+
+
+# Key Concepts
+1. Decorater function - outer function
+
+2. Function doing the decoration - inner function
+
+3. Decorated function - function being passed into the outer function
+
+4. The return from the outer function is the inner function 
+
+
+# Chaining of decorators
+- functions can be chained with decorators
+- the order whereby a function is decorated first depends upon how they are listed, from top to bottom
+  the function will be decorated with the bottom most decorator first
